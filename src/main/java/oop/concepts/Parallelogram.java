@@ -24,7 +24,15 @@ public class Parallelogram extends Quadrilateral{
         return height;
     }
 
-
+    @Override
+    public String toString() {
+        return "Parallelogram{" +
+                "base=" + base +
+                ", side=" + side +
+                ", height=" + height +
+                ", name='" + name + '\'' +
+                '}';
+    }
 
     @Override
     public void draw(){

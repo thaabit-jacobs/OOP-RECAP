@@ -14,10 +14,15 @@ public class App {
         Quadrilateral parallelogramTwo = new Parallelogram("Parallelogram", 10, 7.5, 12);
 
         Brush.drawShape(triangle);
+        System.out.println();
         Brush.drawShape(squareOne);
+        System.out.println();
         Brush.drawShape(parallelogramOne);
+        System.out.println();
         Brush.drawShape((Shape)shapeTwo);
+        System.out.println();
         Brush.drawShape(parallelogramTwo);
+        System.out.println();
 
         ShapeRepoSingelton repoOne = ShapeRepoSingelton.getInstance();
         ShapeRepoSingelton repoTwo = ShapeRepoSingelton.getInstance();
